@@ -1,0 +1,12 @@
+C:\Вуз_Работы\C#\Jeplex\ToDoList\ToDoList\ToDoLIst.Domain\bin\Debug\net7.0\ToDoLIst.Domain.deps.json
+C:\Вуз_Работы\C#\Jeplex\ToDoList\ToDoList\ToDoLIst.Domain\bin\Debug\net7.0\ToDoLIst.Domain.dll
+C:\Вуз_Работы\C#\Jeplex\ToDoList\ToDoList\ToDoLIst.Domain\bin\Debug\net7.0\ToDoLIst.Domain.pdb
+C:\Вуз_Работы\C#\Jeplex\ToDoList\ToDoList\ToDoLIst.Domain\obj\Debug\net7.0\ToDoLIst.Domain.csproj.AssemblyReference.cache
+C:\Вуз_Работы\C#\Jeplex\ToDoList\ToDoList\ToDoLIst.Domain\obj\Debug\net7.0\ToDoLIst.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Вуз_Работы\C#\Jeplex\ToDoList\ToDoList\ToDoLIst.Domain\obj\Debug\net7.0\ToDoLIst.Domain.AssemblyInfoInputs.cache
+C:\Вуз_Работы\C#\Jeplex\ToDoList\ToDoList\ToDoLIst.Domain\obj\Debug\net7.0\ToDoLIst.Domain.AssemblyInfo.cs
+C:\Вуз_Работы\C#\Jeplex\ToDoList\ToDoList\ToDoLIst.Domain\obj\Debug\net7.0\ToDoLIst.Domain.csproj.CoreCompileInputs.cache
+C:\Вуз_Работы\C#\Jeplex\ToDoList\ToDoList\ToDoLIst.Domain\obj\Debug\net7.0\ToDoLIst.Domain.dll
+C:\Вуз_Работы\C#\Jeplex\ToDoList\ToDoList\ToDoLIst.Domain\obj\Debug\net7.0\refint\ToDoLIst.Domain.dll
+C:\Вуз_Работы\C#\Jeplex\ToDoList\ToDoList\ToDoLIst.Domain\obj\Debug\net7.0\ToDoLIst.Domain.pdb
+C:\Вуз_Работы\C#\Jeplex\ToDoList\ToDoList\ToDoLIst.Domain\obj\Debug\net7.0\ref\ToDoLIst.Domain.dll
