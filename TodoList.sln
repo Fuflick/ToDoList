@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoList", "TodoList\TodoList.csproj", "{CEE125E7-C263-4ED5-8BCF-8E3669B0D067}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TodoList.DAL", "TodoList.DAL", "{775F8611-DC98-47C5-9837-6B8341A41249}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoList.DAL", "TodoList.DAL\TodoList.DAL\TodoList.DAL.csproj", "{FAA11831-F9DC-408E-9AE8-8C9C3F7DD4E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{21DB4690-F2E3-4AA7-B77D-5C0DFCC5C70F}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEE125E7-C263-4ED5-8BCF-8E3669B0D067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE125E7-C263-4ED5-8BCF-8E3669B0D067}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEE125E7-C263-4ED5-8BCF-8E3669B0D067}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEE125E7-C263-4ED5-8BCF-8E3669B0D067}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAA11831-F9DC-408E-9AE8-8C9C3F7DD4E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAA11831-F9DC-408E-9AE8-8C9C3F7DD4E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAA11831-F9DC-408E-9AE8-8C9C3F7DD4E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAA11831-F9DC-408E-9AE8-8C9C3F7DD4E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FAA11831-F9DC-408E-9AE8-8C9C3F7DD4E7} = {775F8611-DC98-47C5-9837-6B8341A41249}
+	EndGlobalSection
+EndGlobal

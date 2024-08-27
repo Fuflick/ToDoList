@@ -1,0 +1,31 @@
+﻿version: "3"
+networks:
+  todolist-netvork:
+    driver: bridge
+services:
+  app:
+    container_name: todolist-container
+    build:
+      context: .
+      dockerfile: TodoList/Dockerfile
+    ports:
+      - "80:80"
+    networks:
+      - todolist-network
+    depends_on:
+      - notes-database
+  notes-database:
+    container_name: notes-database-container
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123
+      POSTGRES_DB: notesDb
+    ports:
+      - "5432:5432"
+    networks: 
+      - todolist-network
+    volumes:
+      - notes-data:/var/lib/postgresql/data
+volumes:
+  notes-data:
