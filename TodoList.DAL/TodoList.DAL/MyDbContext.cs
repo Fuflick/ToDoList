@@ -8,6 +8,6 @@ public class MyDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder builder)
     {
-        builder.UseNpgsql("ConnectionString");
+        builder.UseNpgsql("Host=172.17.0.1;Database=notesDb;Username=postgres;Password=123");
     }
 }

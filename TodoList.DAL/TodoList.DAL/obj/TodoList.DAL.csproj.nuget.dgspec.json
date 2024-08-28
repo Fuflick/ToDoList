@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/home/kraiben/Code/TodoList/TodoList/TodoList.csproj": {
-                "projectPath": "/home/kraiben/Code/TodoList/TodoList/TodoList.csproj"
+              "/home/kraiben/Code/TodoList/TodoList.Domain/TodoList.Domain.csproj": {
+                "projectPath": "/home/kraiben/Code/TodoList/TodoList.Domain/TodoList.Domain.csproj"
               }
             }
           }
@@ -77,14 +77,14 @@
         }
       }
     },
-    "/home/kraiben/Code/TodoList/TodoList/TodoList.csproj": {
+    "/home/kraiben/Code/TodoList/TodoList.Domain/TodoList.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/kraiben/Code/TodoList/TodoList/TodoList.csproj",
-        "projectName": "TodoList",
-        "projectPath": "/home/kraiben/Code/TodoList/TodoList/TodoList.csproj",
+        "projectUniqueName": "/home/kraiben/Code/TodoList/TodoList.Domain/TodoList.Domain.csproj",
+        "projectName": "TodoList.Domain",
+        "projectPath": "/home/kraiben/Code/TodoList/TodoList.Domain/TodoList.Domain.csproj",
         "packagesPath": "/home/kraiben/.nuget/packages/",
-        "outputPath": "/home/kraiben/Code/TodoList/TodoList/obj/",
+        "outputPath": "/home/kraiben/Code/TodoList/TodoList.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/kraiben/.nuget/NuGet/NuGet.Config"
@@ -110,20 +110,6 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[7.0.17, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[7.0.12, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.5.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -136,9 +122,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
