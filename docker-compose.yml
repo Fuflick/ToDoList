@@ -1,6 +1,6 @@
-﻿version: "3"
+﻿version: "3.9"
 networks:
-  todolist-netvork:
+  todolist-network:
     driver: bridge
 services:
   app:

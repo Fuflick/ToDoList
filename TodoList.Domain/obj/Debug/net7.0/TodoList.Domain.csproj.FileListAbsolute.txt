@@ -1,0 +1,11 @@
+/home/kraiben/Code/TodoList/TodoList.Domain/bin/Debug/net7.0/TodoList.Domain.deps.json
+/home/kraiben/Code/TodoList/TodoList.Domain/bin/Debug/net7.0/TodoList.Domain.dll
+/home/kraiben/Code/TodoList/TodoList.Domain/bin/Debug/net7.0/TodoList.Domain.pdb
+/home/kraiben/Code/TodoList/TodoList.Domain/obj/Debug/net7.0/TodoList.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/kraiben/Code/TodoList/TodoList.Domain/obj/Debug/net7.0/TodoList.Domain.AssemblyInfoInputs.cache
+/home/kraiben/Code/TodoList/TodoList.Domain/obj/Debug/net7.0/TodoList.Domain.AssemblyInfo.cs
+/home/kraiben/Code/TodoList/TodoList.Domain/obj/Debug/net7.0/TodoList.Domain.csproj.CoreCompileInputs.cache
+/home/kraiben/Code/TodoList/TodoList.Domain/obj/Debug/net7.0/TodoList.Domain.dll
+/home/kraiben/Code/TodoList/TodoList.Domain/obj/Debug/net7.0/refint/TodoList.Domain.dll
+/home/kraiben/Code/TodoList/TodoList.Domain/obj/Debug/net7.0/TodoList.Domain.pdb
+/home/kraiben/Code/TodoList/TodoList.Domain/obj/Debug/net7.0/ref/TodoList.Domain.dll

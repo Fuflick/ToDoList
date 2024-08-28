@@ -222,3 +222,12 @@
 /home/kraiben/Code/TodoList/TodoList/obj/Debug/net7.0/TodoList.pdb
 /home/kraiben/Code/TodoList/TodoList/obj/Debug/net7.0/TodoList.genruntimeconfig.cache
 /home/kraiben/Code/TodoList/TodoList/obj/Debug/net7.0/ref/TodoList.dll
+/home/kraiben/Code/TodoList/TodoList/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+/home/kraiben/Code/TodoList/TodoList/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/kraiben/Code/TodoList/TodoList/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/kraiben/Code/TodoList/TodoList/bin/Debug/net7.0/Npgsql.dll
+/home/kraiben/Code/TodoList/TodoList/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/home/kraiben/Code/TodoList/TodoList/bin/Debug/net7.0/TodoList.DAL.dll
+/home/kraiben/Code/TodoList/TodoList/bin/Debug/net7.0/TodoList.Domain.dll
+/home/kraiben/Code/TodoList/TodoList/bin/Debug/net7.0/TodoList.DAL.pdb
+/home/kraiben/Code/TodoList/TodoList/bin/Debug/net7.0/TodoList.Domain.pdb
