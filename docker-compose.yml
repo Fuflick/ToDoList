@@ -11,6 +11,8 @@ services:
       dockerfile: TodoList/Dockerfile
     ports: 
       - '80:80'
+    networks:
+      - todolist-network
     depends_on:
       - todolist-db
   todolist-db:
