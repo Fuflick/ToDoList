@@ -11,7 +11,7 @@ using TodoList.DAL;
 namespace TodoList.DAL.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    [Migration("20240830174246_Initial")]
+    [Migration("20240830205343_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
