@@ -1,0 +1,17 @@
+/home/kraiben/Code/TodoList/TodoList.DAL/bin/Debug/net7.0/TodoList.DAL.deps.json
+/home/kraiben/Code/TodoList/TodoList.DAL/bin/Debug/net7.0/TodoList.DAL.runtimeconfig.json
+/home/kraiben/Code/TodoList/TodoList.DAL/bin/Debug/net7.0/TodoList.DAL.dll
+/home/kraiben/Code/TodoList/TodoList.DAL/bin/Debug/net7.0/TodoList.DAL.pdb
+/home/kraiben/Code/TodoList/TodoList.DAL/bin/Debug/net7.0/TodoList.Domain.dll
+/home/kraiben/Code/TodoList/TodoList.DAL/bin/Debug/net7.0/TodoList.Domain.pdb
+/home/kraiben/Code/TodoList/TodoList.DAL/obj/Debug/net7.0/TodoList.DAL.csproj.AssemblyReference.cache
+/home/kraiben/Code/TodoList/TodoList.DAL/obj/Debug/net7.0/TodoList.DAL.GeneratedMSBuildEditorConfig.editorconfig
+/home/kraiben/Code/TodoList/TodoList.DAL/obj/Debug/net7.0/TodoList.DAL.AssemblyInfoInputs.cache
+/home/kraiben/Code/TodoList/TodoList.DAL/obj/Debug/net7.0/TodoList.DAL.AssemblyInfo.cs
+/home/kraiben/Code/TodoList/TodoList.DAL/obj/Debug/net7.0/TodoList.DAL.csproj.CoreCompileInputs.cache
+/home/kraiben/Code/TodoList/TodoList.DAL/obj/Debug/net7.0/TodoList.DAL.csproj.CopyComplete
+/home/kraiben/Code/TodoList/TodoList.DAL/obj/Debug/net7.0/TodoList.DAL.dll
+/home/kraiben/Code/TodoList/TodoList.DAL/obj/Debug/net7.0/refint/TodoList.DAL.dll
+/home/kraiben/Code/TodoList/TodoList.DAL/obj/Debug/net7.0/TodoList.DAL.pdb
+/home/kraiben/Code/TodoList/TodoList.DAL/obj/Debug/net7.0/TodoList.DAL.genruntimeconfig.cache
+/home/kraiben/Code/TodoList/TodoList.DAL/obj/Debug/net7.0/ref/TodoList.DAL.dll

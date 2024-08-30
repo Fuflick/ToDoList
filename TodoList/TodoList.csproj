@@ -20,11 +20,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Models\" />
+      <Folder Include="Controllers\" />
     </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\TodoList.DAL\TodoList.DAL\TodoList.DAL.csproj" />
-    </ItemGroup>
-
 </Project>
