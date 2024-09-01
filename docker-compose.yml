@@ -5,6 +5,8 @@ networks:
     driver: bridge
 services:
   app:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
     container_name: todolist-container
     build:
       context: .

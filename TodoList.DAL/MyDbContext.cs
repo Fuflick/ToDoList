@@ -9,6 +9,6 @@ public class MyDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder builder)
     {
-        builder.UseNpgsql("Host=localhost;Username=postgres;Port=5432;Password=123;Database=TodoListDb");
+        builder.UseNpgsql("Host=todolist-db;Username=postgres;Port=5432;Password=123;Database=TodoListDb");
     }
 }
