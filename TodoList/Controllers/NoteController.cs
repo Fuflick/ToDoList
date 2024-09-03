@@ -31,5 +31,33 @@ namespace TodoList.Controllers
             await _dbContext.SaveChangesAsync();
             await Response.WriteAsJsonAsync(Ok());
         }
+
+        [HttpPatch]
+        public async Task UpdateNote(int id, [FromBody] Note note)
+        {
+            try
+            {
+                var excitingNote = await _dbContext.Notes.FirstOrDefaultAsync(x => x.Id == id);
+                if (excitingNote != null)
+                {
+                    excitingNote.Body = note.Body;
+                    excitingNote.Title = note.Title;
+                    _dbContext.Notes.Update(excitingNote);
+                    await _dbContext.SaveChangesAsync();
+                    await Response.WriteAsJsonAsync(Ok(excitingNote));
+                }
+                else
+                {
+                    Response.StatusCode = 404;
+                    await Response.WriteAsJsonAsync(new { message = "Not Foud" });
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+                Response.StatusCode = 500;
+                await Response.WriteAsJsonAsync(new { message = "Internal error" });
+            }
+        }
     }
 }
