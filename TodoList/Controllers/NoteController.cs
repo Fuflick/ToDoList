@@ -40,8 +40,7 @@ namespace TodoList.Controllers
                 var excitingNote = await _dbContext.Notes.FirstOrDefaultAsync(x => x.Id == id);
                 if (excitingNote != null)
                 {
-                    excitingNote.Body = note.Body;
-                    excitingNote.Title = note.Title;
+                    await excitingNote.Update(note);
                     _dbContext.Notes.Update(excitingNote);
                     await _dbContext.SaveChangesAsync();
                     await Response.WriteAsJsonAsync(Ok(excitingNote));
