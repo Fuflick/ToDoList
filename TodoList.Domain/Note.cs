@@ -16,13 +16,13 @@ public class Note
     public Note()
     {
         Title = "New Note";
-        CreationTime = LastUpdated = DateTime.Now;
+        CreationTime = LastUpdated = DateTime.Now.ToUniversalTime();
     }
 
     public async Task Update(Note note)
     {
         this.Title = note.Title;
         this.Body = note.Body;
-        LastUpdated = DateTime.Now;
+        LastUpdated = DateTime.Now.ToUniversalTime();
     }
 }

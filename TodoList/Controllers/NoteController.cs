@@ -26,7 +26,7 @@ namespace TodoList.Controllers
         [HttpPost]
         public async Task CreateNote()
         {
-            var note = new Note(){Title = "test"};
+            var note = new Note();
             await _dbContext.Notes.AddAsync(note);
             await _dbContext.SaveChangesAsync();
             await Response.WriteAsJsonAsync(Ok());

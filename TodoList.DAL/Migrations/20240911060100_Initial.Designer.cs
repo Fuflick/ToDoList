@@ -12,8 +12,8 @@ using TodoList.DAL;
 namespace TodoList.DAL.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    [Migration("20240909204047_initial")]
-    partial class initial
+    [Migration("20240911060100_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
