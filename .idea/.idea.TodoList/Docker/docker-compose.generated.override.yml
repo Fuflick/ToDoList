@@ -1,0 +1,21 @@
+# This is a generated file. Not intended for manual editing.
+version: "3.9"
+services:
+  app:
+    build:
+      context: "/home/kraiben/Code/TodoList"
+      dockerfile: "TodoList/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net7.0/TodoList.dll"
+    environment:
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "todolist:dev"
+    ports: []
+    volumes:
+    - "/home/kraiben/.nuget/packages:/root/.nuget/packages"
+    - "/home/kraiben/Code/TodoList/TodoList:/app:rw"
+    - "/home/kraiben/Code/TodoList:/src:rw"
+    working_dir: "/app"

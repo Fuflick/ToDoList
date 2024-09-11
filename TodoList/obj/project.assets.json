@@ -3465,6 +3465,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.0",
+          "Npgsql": "7.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.0",
           "TodoList.Domain": "1.0.0"
         },

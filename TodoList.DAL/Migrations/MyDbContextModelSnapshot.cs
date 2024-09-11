@@ -33,6 +33,9 @@ namespace TodoList.DAL.Migrations
                     b.Property<string>("Body")
                         .HasColumnType("text");
 
+                    b.Property<DateTime?>("CreationTime")
+                        .HasColumnType("timestamp with time zone");
+
                     b.Property<DateTime?>("LastUpdated")
                         .HasColumnType("timestamp with time zone");
 

@@ -11,7 +11,7 @@ public class Note
     
     public DateTime? CreationTime { get; set; } //Todo: fix autoupdate after docker-compose restart
 
-    public DateTime? LastUpdated { get; set; }
+   public DateTime? LastUpdated { get; set; }
 
     public Note()
     {
