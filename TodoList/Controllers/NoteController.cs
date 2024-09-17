@@ -33,17 +33,19 @@ namespace TodoList.Controllers
         }
 
         [HttpPatch]
-        public async Task UpdateNote(int id, [FromBody] Note note)
+        public async Task UpdateNote(int id, string title, string body)
         {
             try
             {
-                var excitingNote = await _dbContext.Notes.FirstOrDefaultAsync(x => x.Id == id);
-                if (excitingNote != null)
+                var note = await _dbContext.Notes.FirstOrDefaultAsync(x => x.Id == id);
+                if (note != null)
                 {
-                    await excitingNote.Update(note);
-                    _dbContext.Notes.Update(excitingNote);
+                    note.Title = title;
+                    note.Body = body;
+                    note.LastUpdated = DateTime.Now.ToUniversalTime();
+                    _dbContext.Notes.Update(note);
                     await _dbContext.SaveChangesAsync();
-                    await Response.WriteAsJsonAsync(Ok(excitingNote));
+                    await Response.WriteAsJsonAsync(Ok(note));
                 }
                 else
                 {

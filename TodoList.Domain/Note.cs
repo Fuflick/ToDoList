@@ -18,11 +18,5 @@ public class Note
         Title = "New Note";
         CreationTime = LastUpdated = DateTime.Now.ToUniversalTime();
     }
-
-    public async Task Update(Note note)
-    {
-        this.Title = note.Title;
-        this.Body = note.Body;
-        LastUpdated = DateTime.Now.ToUniversalTime();
-    }
+    
 }
