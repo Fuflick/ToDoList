@@ -60,5 +60,29 @@ namespace TodoList.Controllers
                 await Response.WriteAsJsonAsync(new { message = "Internal error" });
             }
         }
+
+        [HttpDelete]
+        public async Task DeleteNote(int? id)
+        {
+            try
+            {
+                var note = await _dbContext.Notes.FirstOrDefaultAsync(x => x.Id == id);
+
+                if (note != null)
+                {
+                    _dbContext.Notes.Remove(note);
+                    await _dbContext.SaveChangesAsync();
+                    await Response.WriteAsJsonAsync(note); // Todo: change note to statusCode 200
+                }
+                else
+                {
+                    Response.StatusCode = 404;
+                }
+            }
+            catch (Exception ex)
+            {
+                await Response.WriteAsJsonAsync(new { message = $"{ex.Message}"});
+            }
+        }
     }
 }
